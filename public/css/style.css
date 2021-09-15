@@ -1,0 +1,241 @@
+span:hover .chap-link{
+  color: white !important ; 
+}
+.title-post a{
+ font-size: 16px;
+    font-weight: bold;
+    color: #242025d1!important;
+
+}
+a.badge.badge-light {
+    font-weight: inherit;
+    color: #54112a;
+    background-color: #b5c0ff4d;
+}
+.badge{
+        cursor: pointer;
+      }
+.title-post:hover a{
+  text-decoration: underline !important;;
+}
+  #section {
+    width: 500px;
+    height: 400px;
+    word-wrap: break-word;
+  }
+
+   .showContentAll.displayreadallsome .DspInfo,
+    .showContentAll.displayreadallsome .someVeek {
+        display: none;
+    }
+
+    .showContentAll.readalldatafull .contentData {
+        display: none;
+    }
+
+    .showContentAll .contentData,
+    .showContentAll .someVeek {
+        font-weight: bold;
+        margin-left: 2px;
+        color: blue;
+        cursor: pointer;
+    }
+
+    .showContentAllWrapTxt.readalldatafull .DspInfo,
+    .showContentAllWrapTxt.readalldatafull .someVeek {
+        display: block;
+    }
+    .post:hover{
+      background-color: rgb(233, 235, 238);
+    }
+   @media screen and (max-width: 576px) {
+  .col-img{
+    margin:auto;
+    width: 200px;
+    height: 300px;
+  }
+  .col-img img{
+    width: 100%;
+    height: 100%;
+  }
+}
+.post{
+ /*background-color: rgb(233, 235, 238);*/
+ border-bottom: 1px solid red;
+}
+.right .post{
+   border-bottom: 1px solid blue; 
+}
+.detail-chap a{
+  color: black;
+  font-weight: inherit;
+}
+.detail-chap h2:hover a{
+  color:grey;
+
+}
+.list-chap li a{
+    font-weight: bold; 
+    font-size: 14px;
+    color:#204660f5;
+}
+.list-chap li:hover a{
+  color: grey;
+  }
+.card {
+    position: relative;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #d2d2dc;
+    border-radius: 11px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
+    box-shadow: 0px 0px 5px 0px rgb(161, 163, 164)
+}
+
+.media img {
+    width: 30px;
+    height: 30px
+}
+
+.reply a {
+    text-decoration: none
+}
+.has-mega-menu .container-sm {
+      max-width: 500px;
+    }
+     
+    .has-mega-menu .container-md {
+      max-width: 600px;
+    }
+     
+    .has-mega-menu .container-lg {
+      max-width: 600px;
+    }
+     
+    .has-mega-menu .container-xl {
+      max-width: 400px;
+    }
+     
+    /*Only for Bootstrap version 4 Beta and up*/
+    @media screen and (min-width: 576px) { 
+      .has-mega-menu .container-sm {
+          width: 500px;
+      }
+    }
+     
+    @media screen and (min-width: 768px) { 
+      .has-mega-menu .container-md {
+          width: 500px;
+      }
+    }
+     
+    @media screen and (min-width: 992px) { 
+      .has-mega-menu .container-lg {
+          width: 500px;
+      }
+    }
+     
+    @media screen and (min-width: 1200px) { 
+      .has-mega-menu .container-xl {
+          width: 500px;
+      }
+    }
+    .dropdown-menu
+      {
+        border:none;
+        display: block;
+        opacity:1;
+        height: 0px;
+        overflow: hidden;
+        padding: 0px;
+        top: 200px;
+        transition: all .5s;
+
+      }
+      .dropdown:hover .dropdown-menu
+      {
+        border-top:2px solid green;
+        border-bottom:2px solid green;
+        display: block;
+        background-color: rgb(233, 235, 238);
+        top: 90%;
+        height: inherit;
+        border-radius: 0;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      }
+      .dropdown-menu a:hover{
+        color: blue;
+        /*background-color: rgb(233, 235, 240);*/
+      }
+
+@media screen and (max-width: 576px)
+{
+  .name-breadcum{
+  width: 120px;white-space: nowrap; overflow: hidden;text-overflow: ellipsis;padding-left: 5px;
+  }
+  #btnScrollTop{
+    right: 40px;  
+  }
+  #btnScrollTop{
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  font-size: 30px;
+  background: #1483ce17;
+
+  padding: 7px 10px;
+  border-radius: 50%;
+  color: black;
+  cursor: pointer;
+  border: 1px solid white;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .3s ease-in-out;
+  }  
+}
+  #btnScrollTop{
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  font-size: 30px;
+  background: #1483ce17;
+
+  padding: 7px 10px;
+  border-radius: 50%;
+  color: black;
+  cursor: pointer;
+  border: 1px solid white;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .3s ease-in-out;
+}
+#setting{
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  font-size: 30px;
+  background: #1483ce17;
+  
+  border-radius: 50%;
+  color: black;
+  cursor: pointer;
+  border: 1px solid white;
+}  
+
+
+#btnScrollTop:hover,#setting:hover{
+  transition: .5s;
+  background: #e4e4e4;
+}
+.site-menu a{
+  color: white;
+}
+.breadcrumb-item a{
+  color: black;
+}      
